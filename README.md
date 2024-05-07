@@ -1,18 +1,24 @@
-# Ex-12-IMPLEMENTATION-OF-HEAP-STORAGE-ALLOCATION-STRATEGY
-IMPLEMENTATION OF HEAP STORAGE ALLOCATION STRATEGY
-# Date : 24.04.2024
-# Aim :
+# Ex. No : 12	
+# IMPLEMENTATION OF HEAP STORAGE ALLOCATION STRATEGY 
+## Register Number : 212222240045
+## Date : 24.04.2024
+
+## AIM   
 To write a program to implement heap storage allocation strategy.
-# ALGORITHM
-1. Start the program.
-2. Define a function create( ) to create a list of allocated node. This function returns a pointer to head of list.
-3. Define a function display(node) to display the list of allocated nodes.
-4. Define a function search(node,key) to search for the element in list.
-5. Define a function insert(node) to insert element into the list.
-6. Define a function get_prev(node,value) to look for the previous element in the list.
-7. Define a function delete() to remove an element from the list.
-8. Stop the program.
-# PROGRAM
+
+## ALGORITHM
+1.	Start the program.
+2.	Define a function create( ) to create a list of allocated node. This function returns a pointer to head of list.
+3.	Define a function display(node) to display the list of allocated nodes.
+4.	Define a function search(node,key) to search for the element in list.
+5.	Define a function insert(node) to insert element into the list.
+6.	Define a function get_prev(node,value) to look for the previous element in the list.
+7.	Define a function delete() to remove an element from the list.
+8.	Stop the program.
+
+## PROGRAM
+
+```
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -254,14 +260,16 @@ int main() {
 
     return 0;
 }
-# OUTPUT
+```
 
-![image](https://github.com/karthikeyan-R16/Ex-12-IMPLEMENTATION-OF-HEAP-STORAGE-ALLOCATION-STRATEGY/assets/119421232/f4aecc8a-2457-42c7-b349-46bc797e7f00)
+## OUTPUT 
 
-![image](https://github.com/karthikeyan-R16/Ex-12-IMPLEMENTATION-OF-HEAP-STORAGE-ALLOCATION-STRATEGY/assets/119421232/d3b6442d-a874-4fdf-80c1-487b52b169d9)
+![image](https://github.com/HamsiniKannan/19CS409-Compiler-Design-Lab/assets/119393929/0f96e11f-b193-4f1a-82f7-39319bdbde55)
 
-![image](https://github.com/karthikeyan-R16/Ex-12-IMPLEMENTATION-OF-HEAP-STORAGE-ALLOCATION-STRATEGY/assets/119421232/edde7239-ec69-493d-bc4c-f8ce4fa0a2c5)
+![image](https://github.com/HamsiniKannan/19CS409-Compiler-Design-Lab/assets/119393929/4138657e-7311-44dc-b39b-c5fd6a5bb7fb)
 
-# RESULT
-The heap storage allocation strategy is implemented successfully, and the output is 
-verified.
+![image](https://github.com/HamsiniKannan/19CS409-Compiler-Design-Lab/assets/119393929/960158f5-97e3-4b3c-bfdb-eb404e6319b5)
+
+
+## RESULT
+The heap storage allocation strategy is implemented successfully, and the output is verified.
